@@ -14,15 +14,16 @@ git clone https://github.com/iredmail/iRedMail.git
 
 #devops #mail #email #iredmail
 Чтобы гуглик не ругался:
-/etc/postfix/main.cf
-    inet_protocols = ipv4
-systemctl reload postfix
+в файле ```/etc/postfix/main.cf```
+Ищем ```inet_protocols = ipv4``` меняем на ```inet_protocols = ipv4```
+Выполним команду
+```systemctl reload postfix```
 
 Чтобы сервер принимал письма MX запись:
-Type: MX
-Name: yourdomain.who
-Server: send.yourdomain.who
-Priotiy: 0
+- Type: MX
+- Name: yourdomain.who
+- Server: send.yourdomain.who
+- Priotiy: 0
 
 Ещё есть такая штука:
  - https://github.com/mailcow/mailcow-dockerized (осторожно, Docker!)
