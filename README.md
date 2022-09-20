@@ -25,10 +25,10 @@ Server: send.yourdomain.who
 Priotiy: 0
 
 Ещё есть такая штука:
-  https://github.com/mailcow/mailcow-dockerized (осторожно, Docker!)
-  https://habr.com/ru/post/539736/
-  https://www.s-sols.com/ru/setup-own-mail-server
-  https://www.youtube.com/watch?v=bY4n7MSLFSc
-  https://github.com/ddavness/power-mailinabox
-  https://www.linuxbabe.com/mail-server/debian-10-buster-iredmail-email-server !!!
-  https://www.youtube.com/watch?v=VptKRBVeCMo
+ - https://github.com/mailcow/mailcow-dockerized (осторожно, Docker!)
+ - https://habr.com/ru/post/539736/
+ - https://www.s-sols.com/ru/setup-own-mail-server
+ - https://www.youtube.com/watch?v=bY4n7MSLFSc
+ - https://github.com/ddavness/power-mailinabox
+ - https://www.linuxbabe.com/mail-server/debian-10-buster-iredmail-email-server !!!
+ - https://www.youtube.com/watch?v=VptKRBVeCMo
