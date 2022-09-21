@@ -5,25 +5,26 @@ Personal mail server with iRedMail
 
 Друзья, Вашему вниманию представлена инструкция по установке и настройке email сервера со всеми тонкостями и подводными камнями. Надеюсь, что людям хватит ума оставить в стороне "красные кнопки" и эта информация кому-то пригодятся.
 
-Вся инструкция здесь:
+### Вся инструкция здесь:
 
 https://www.linuxbabe.com/mail-server/debian-10-buster-iredmail-email-server
 
 если данная страница перестанет быть доступной, то Вы сможете найти её в архиве (/code/main_instruction.zip)
 
-Качать iRedMail отсюда:
+### Качать iRedMail отсюда:
 
 ```git clone https://github.com/iredmail/iRedMail.git```
 
-Чтобы гуглик не ругался:
+### Чтобы гуглик не ругался:
+
 в файле ```/etc/postfix/main.cf```
 
-Ищем ```inet_protocols = ipv4``` меняем на ```inet_protocols = ipv4```
+Ищем ```inet_protocols = all``` меняем на ```inet_protocols = ipv4```
 
 Выполним команду
 ```systemctl reload postfix```
 
-Чтобы сервер принимал письма MX запись:
+**Чтобы сервер принимал письма MX запись:**
 - Type: MX
 - Name: yourdomain.who
 - Server: send.yourdomain.who
