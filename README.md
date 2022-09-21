@@ -13,7 +13,7 @@ Personal mail server with iRedMail
 
 https://www.linuxbabe.com/mail-server/debian-10-buster-iredmail-email-server
 
-если данная страница перестанет быть доступной, то Вы сможете найти её в архиве (/code/main_instruction.zip)
+если данная страница перестанет быть доступной, то Вы сможете найти её в архиве (```/code/main_instruction.zip```)
 
 ### Качать iRedMail отсюда:
 
