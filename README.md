@@ -3,7 +3,7 @@ Personal mail server with iRedMail
 
 **OS:** Debian 11
 
-[Офиц. сайт, требования и доступные ОС там же](https://iredmail.org)
+[Офиц. сайт, требования и доступные ОС там же]([https://iredmail.org](https://iredmail.org/download.html))
 
 [YouTube — моё видео](https://www.youtube.com/watch?v=qGdR1eag06Q)
 
