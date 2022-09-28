@@ -44,6 +44,16 @@ https://www.linuxbabe.com/mail-server/debian-10-buster-iredmail-email-server
 
 записи для Вашего домена!
 
+### Если письма НЕ отправляются, то проверьте порты:
+
+traceroute -n -T -p 25 gmail-smtp-in.l.google.com
+
+А также эти:
+
+TCP: 22, 25, 80, 110, 143, 443, 465, 587, 993, 995
+
+[Здесь инфо](https://serverfault.com/questions/585503/postfix-connection-timed-out-on-all-outbound-email)
+
 Ещё есть такая штука:
  - https://github.com/mailcow/mailcow-dockerized (осторожно, Docker!)
  - https://habr.com/ru/post/539736/
