@@ -9,9 +9,11 @@ Personal mail server with iRedMail
 
 Друзья, Вашему вниманию представлена инструкция по установке и настройке email сервера со всеми тонкостями и подводными камнями. Надеюсь, что людям хватит ума оставить в стороне "красные кнопки" и эта информация кому-то пригодятся.
 
-### Вся инструкция здесь:
+### Инструкция по началу установки и др. данные:
 
 https://www.linuxbabe.com/mail-server/debian-10-buster-iredmail-email-server
+
+(iRedMail инструкция установки)[https://docs.iredmail.org/install.iredmail.on.debian.ubuntu.html]
 
 если данная страница перестанет быть доступной, то Вы сможете найти её в архиве (```/code/main_instruction.zip```)
 
