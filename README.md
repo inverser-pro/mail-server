@@ -36,6 +36,14 @@ https://www.linuxbabe.com/mail-server/debian-10-buster-iredmail-email-server
 - Server: send.yourdomain.who
 - Priotiy: 0
 
+### Помните, что необходимо настроить:
+- dmarc
+- DKIM
+- SPF
+- PTR
+
+записи для Вашего домена!
+
 Ещё есть такая штука:
  - https://github.com/mailcow/mailcow-dockerized (осторожно, Docker!)
  - https://habr.com/ru/post/539736/
